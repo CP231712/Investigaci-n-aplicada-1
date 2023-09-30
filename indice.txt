@@ -1,0 +1,32 @@
+Capítulo 1: Introducción a Git
+¿Qué es Git?
+Git es un sistema de control de versiones distribuido, diseñado para rastrear cambios en archivos y coordinar el trabajo entre múltiples personas en proyectos de desarrollo de software.
+
+Importancia de Git
+Git es fundamental en el desarrollo de software porque permite a los equipos trabajar de manera colaborativa y eficiente en proyectos, manteniendo un historial completo de los cambios realizados. Esto facilita la identificación y corrección de errores, así como la gestión de nuevas características y actualizaciones.
+
+Conceptos clave:
+Repositorio: Es un espacio donde se almacenan los archivos y la información sobre el historial de cambios.
+Commit: Un commit es una instantánea de los archivos en un momento específico. Cada commit tiene un identificador único y un mensaje que describe los cambios realizados.
+Rama (Branch): Es una línea independiente de desarrollo que permite trabajar en características o correcciones sin afectar la rama principal (por lo general, llamada master o main).
+Capítulo 2: Flujo de trabajo básico
+Inicializando un repositorio
+Para comenzar a usar Git en un proyecto, se inicializa un repositorio en el directorio del proyecto con el comando git init.
+
+Agregando y confirmando cambios
+git add: Este comando se utiliza para agregar archivos al área de preparación (staging area) para ser incluidos en el próximo commit.
+git commit: Se usa para crear un punto en la historia del repositorio que representa un conjunto de cambios.
+Ramas
+Las ramas permiten el desarrollo paralelo de características o correcciones. Se pueden crear, cambiar y combinar ramas para gestionar el flujo de trabajo.
+
+Capítulo 3: Repositorios remotos
+Clonar un repositorio remoto
+Para obtener una copia de un repositorio remoto en tu máquina local, se utiliza el comando git clone.
+
+Sincronizar cambios
+git pull: Permite obtener los cambios más recientes de un repositorio remoto.
+git push: Se utiliza para enviar los cambios locales al repositorio remoto.
+Colaboración en equipo
+Git facilita la colaboración entre múltiples desarrolladores al permitir que cada uno trabaje en su propia rama y luego se fusionen (merge) los cambios.
+
+Recuerda que Git es una herramienta poderosa y puede tomar algo de práctica para sentirte completamente cómodo con ella. ¡No dudes en hacerme más preguntas si necesitas más detalles sobre algún aspecto específico!
